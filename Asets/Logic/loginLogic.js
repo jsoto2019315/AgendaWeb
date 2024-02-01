@@ -12,6 +12,8 @@ function iniciarSecion() {
 
     if (acceso == true) {
         ingresar();
+    } else{
+        alert('Correo o contraseña incorrectas')
     }
 }
 
