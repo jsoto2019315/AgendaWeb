@@ -1,24 +1,3 @@
-/*const username = document.getElementById('userInput');
-const password = document.getElementById('passwordInput');
-const buttonLogin = document.getElementById('btnLogin');
-
-buttonLogin.addEventListener('click', (e) =>{
-    e.preventDefault();
-    const data = {
-        username: username.value,
-        password: password.value
-    }
-    console.log(data)
-})
-
-//Cración del arreglo
-
-let users1 = ['Jose Soto', '12345'];
-let users2 = ['Angel Méndez', 'qwer'];
-let users3 = ['Alejandro Max', '7890'];
-let users4 = ['Oscar Morales', '54321'];*/
-
-
 
 function obtenerListaUsuarios(){
     var listaUsuarios = JSON.parse(localStorage.getItem('listaUsuariosLs'));
