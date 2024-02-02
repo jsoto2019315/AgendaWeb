@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #40A2E3;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background-color: #BBE2EC;
+    width: 90px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.icono{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s ease;
+    margin: 10px 0 0 10px;
+} 
+
+.icono img{
+    width: 45px;
+    height: 45px;
+}
+
+.icono span{
+    font-weight: bold;
+    padding: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+a{
+    position: relative;
+    color: rgb(85, 83, 83);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 300px;
+    padding: 20px;
+} 
+
+.imgMenu{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.navitem{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+
+a:hover{
+    background: #a3d8e5c1;
+}
+
+nav:hover{
+    width: 280px;
+    transition: all 0.5s ease ;
+}
+
+#logout{
+    position: relative;
+    bottom: 0;
+}
+
+
+/* nav{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    background: #BBE2EC;
+    width: 100px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+li{
+    margin: 15px; 
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.imgMenu{
+    position: relative;
+    width: 60px;
+    display: inline-block;
+}
+
+#ToDo{
+    margin-left: 8px;
+}
+
+#logout{
+    margin-left: 8px;
+}
+
+#icon{
+    width: 80px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+ul :hover{
+    width: 150px;
+    transition: all 0.2s ease; 
+}   
+
+
+
+a{
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+a span{
+    margin-left: 20px;
+} */
