@@ -47,7 +47,9 @@ nav{
     text-transform: uppercase;
 }
 
-a{
+
+.btnOpcion{
+    cursor: pointer;
     position: relative;
     color: rgb(85, 83, 83);
     font-size: 14px;
@@ -76,7 +78,8 @@ a{
     margin-left: 10px;
 }
 
-a:hover{
+
+.btnOpcion:hover{
     background: #a3d8e5c1;
 }
 

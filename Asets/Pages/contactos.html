@@ -13,44 +13,40 @@
     <nav class="menu">
         <ul>
             <li>
-                <a href="#" class="icono">
+                <div class="btnOpcion">
                     <img src="../Resources/icono.svg" class="imgMenu" id="icon">
                     <span class="navitem">Agenda</span>
-                </a>
+                </div>
             </li>
             <li class="agregar">
-
-                <a href="#">
+                <div class="btnOpcion" id="btnAgregar">
                     <img src="../Resources/agregar.svg" class="imgMenu">
                     <span class="navitem">Agregar</span>
-                </a>
+                </div>
             </li>
             <li class="favoritos">
-                <a href="#">
+                <div class="btnOpcion">
                     <img src="../Resources/favoritos.svg" class="imgMenu">
                     <span class="navitem">Favoritos</span>
-                </a>
+                </div>
             </li>
             <li class="ToDoList">
-                <a href="#">
+                <div class="btnOpcion">
                     <img src="../Resources/toDoList.svg" class="imgMenu" id="ToDo">
                     <span class="navitem">ToDo List</span>
-                </a>
+                </div class="btnOpcion">
             </li>
             <li class="LogOut">
-                <a href="#">
+                <div class="btnOpcion">
                     <img src="../Resources/logout.svg" class="imgMenu" id="logout">
                     <span class="navitem">Log Out</span>
-                </a>
+                </div class="btnOpcion">
             </li>
         </ul>
     </nav>
 
 
     <main>
-        <section class="contactos">
-            
-        </section>
         <div class="contacto">
             <img src="../Resources/user.svg" class="userIcon">
             <div class="span">
@@ -116,7 +112,7 @@
             <img src="../Resources/flecha.svg" class="flechaIcon">
         </div>
         
-        <section class="formAgregar">
+        <section class="formAgregar" id="contenedorAgregar">
             <form id="hiden">
                 <h1>Agregar Contacto</h1>
                 <label>Nombre</label>
@@ -124,15 +120,15 @@
                 <label for="">Teléfono</label>
                 <input type="text" placeholder="Ingrese el teléfono">
                 <label for="">Correo Electrónico</label>
-                <input type="text" placeholder="Ingrese el correo electrónico">
+                <input type="email" placeholder="Ingrese el correo electrónico">
                 <label for="">Dirección</label>
                 <input type="text" placeholder="Ingrese la dirección">
-                <button>Agregar</button>
+                <button id="agregarContacto">Agregar</button>
             </form>
         </section>
     </main>
 
-
+<script src="../Logic/agregar.js"></script>
 </body>
 
 </html>
