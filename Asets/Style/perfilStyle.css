@@ -1,0 +1,81 @@
+#fotoUsuario{
+    width: 40px;
+    height: auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-left: 18px;
+
+}
+.navitem_Perfil{
+    margin-left: 27px;
+}
+
+.perfil{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(144, 148, 150, 0.8);
+    display: none;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.perfilUsuario{
+    background-color: #7FC7D9;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 25%;
+    height: 550px;
+    padding: 30px;
+    text-align: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.perfilUsuario article{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: start;
+    justify-items: start;
+    text-align: justify;
+}
+
+.perfilUsuario p{
+    text-align: justify;
+}
+
+.perfilUsuario .encabezado img{
+    width: 40%;
+    border-radius: 100px;
+}
+
+.encabezado{
+    margin-bottom: 20px;
+}
+
+.cuerpo div{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: start;
+    justify-items: start;
+    margin-top: 30px;
+}
+
+.Cerrar{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+    cursor: pointer;
+}
