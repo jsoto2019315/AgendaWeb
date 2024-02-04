@@ -1,0 +1,68 @@
+.span_detalle1{
+    /* position: absolute;
+    top: 0; */
+    /* display: none;
+    align-content: end;
+    align-items: start;
+    justify-content: start;
+    justify-items: start;
+    margin-left: 32%;
+    margin-top: 15px;
+    text-align: center;
+    transition: all 1s ease; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    /* margin-right: 5%; */
+}
+
+.infoDetallada{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    justify-items: center;
+    text-align: center;
+    width: 39%;
+    margin-left: 15px;
+    /* gap: 100px; */
+}
+/* .span_detalle1_Direccion{
+    padding-left: 120px;
+} */
+.detallesBasicos{
+    background-color: #0766AD;
+    color: #DCF2F1;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    height: 80px;
+    border-radius: 20px;
+}
+.infoBasica{
+    background-color: #0766AD;
+    color: #DCF2F1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    height: 80px;
+    border-radius: 20px;
+}
+
+.flechaIcon{
+    cursor: pointer;
+}
+
+.txtDetalle{
+    color: #DCF2F1;
+}

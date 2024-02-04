@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../Style/contactosStyle.css">
     <link rel="stylesheet" href="../Style/agregarStyle.css">
     <link rel="stylesheet" href="../Style/favoritosStyle.css">
+    <link rel="stylesheet" href="../Style/detallesStyle.css">
     <title>Contactos</title>
 </head>
 
@@ -48,20 +49,36 @@
 
 
     <main>
-        <div class="contacto">
-            <img src="../Resources/user.svg" class="userIcon">
-            <div class="span">
-                <span class="Nombre">Nombre</span>
-                <span class="responsive">José David</span>
+        <div class="contacto" id="detalleGeneral1">
+            <div class="infoBasica" id="infoBasica1">
+                <div class="detallesBasicos">
+                    <img src="../Resources/user.svg" class="userIcon">
+                    <div class="span">
+                        <span class="Nombre">Nombre</span>
+                        <span class="responsive">José David</span>
+                    </div>
+                    <div class="span">
+                        <span class="Telefono">Teléfono</span>
+                        <span class="responsive">47218633</span>
+                    </div>
+                    <img src="../Resources/flecha.svg" class="flechaIcon" id="aumentar">
+                </div>
+
+                <div class="infoDetallada">
+                    <div class="span span_detalle1" id="detalle1">
+                        <span class="E-mail">E-mail</span>
+                        <span class="txtDetalle">jsoto@gmail.com</span>
+                    </div>
+                    <div class="span span_detalle1 span_detalle1_Direccion">
+                        <span class="Direccion">Dirección</span>
+                        <span class="txtDetalle">Lote 6 Manzana J</span>
+                    </div>
+                </div>
             </div>
-            <div class="span">
-                <span class="Telefono">Teléfono</span>
-                <span  class="responsive">47218633</span>
-            </div>
-            <img src="../Resources/flecha.svg" class="flechaIcon">
+
         </div>
 
-        <div class="contacto">
+        <!-- <div class="contacto">
             <img src="../Resources/user.svg" class="userIcon">
             <div class="span">
                 <span class="Nombre">Nombre</span>
@@ -111,8 +128,8 @@
                 <span class="responsive">94857208</span>
             </div>
             <img src="../Resources/flecha.svg" class="flechaIcon">
-        </div>
-        
+        </div> -->
+
         <section class="formAgregar" id="contenedorAgregar">
             <form id="hiden">
                 <h1>Agregar Contacto</h1>
@@ -132,7 +149,7 @@
             <div id="btnCerrarFavoritos">
                 <img src="../Resources/btnCerrar.svg">
             </div>
-            
+
             <h1>Tus Contactos Favoritos</h1>
             <div class="contenedorFavoritos">
                 <div class="contacto contacto_favorito">
@@ -143,11 +160,11 @@
                     </div>
                     <div class="span">
                         <span class="Telefono">Teléfono</span>
-                        <span  class="responsive">47218633</span>
+                        <span class="responsive">47218633</span>
                     </div>
                     <img src="../Resources/flecha.svg" class="flechaIcon">
                 </div>
-        
+
                 <div class="contacto contacto_favorito">
                     <img src="../Resources/user.svg" class="userIcon">
                     <div class="span">
@@ -160,7 +177,7 @@
                     </div>
                     <img src="../Resources/flecha.svg" class="flechaIcon">
                 </div>
-        
+
                 <div class="contacto contacto_favorito">
                     <img src="../Resources/user.svg" class="userIcon">
                     <div class="span">
@@ -173,14 +190,15 @@
                     </div>
                     <img src="../Resources/flecha.svg" class="flechaIcon">
                 </div>
-        
+
             </div>
         </section>
     </main>
 
-<script src="../Logic/agregar.js"></script>
-<script src="../Logic/favoritos.js"></script>
-<script src="../Logic/logout.js"></script>
+    <script src="../Logic/agregar.js"></script>
+    <script src="../Logic/favoritos.js"></script>
+    <script src="../Logic/logout.js"></script>
+    <script src="../Logic/detalle.js"></script>
 </body>
 
 </html>

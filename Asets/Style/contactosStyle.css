@@ -104,7 +104,7 @@ main{
     gap: 30px;
     transition: padding-left 0.5s ease;
 }
-.contacto{
+/* .contacto{
     background-color: #0766AD;
     color: #DCF2F1;
     width: 100%;
@@ -115,7 +115,7 @@ main{
     justify-items: center;
     height: 80px;
     border-radius: 20px;
-}
+} */
 
 .span{
     display: flex;
@@ -124,7 +124,9 @@ main{
 }
 
 .span .Nombre,
-.span .Telefono {
+.span .Telefono,
+.span .E-mail,
+.span .Direccion{
     font-weight: bold;
     font-size: 25px;
     color: #0F1035;
