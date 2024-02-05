@@ -3,7 +3,7 @@
 const flechaDetalle = document.getElementById('aumentar1');
 const infoDetallada = document.getElementById('infoDetallada1');
 
-let desplegado = false;
+let desplegado = true;
 
 flechaDetalle.addEventListener('click', () => {
   if (desplegado) {
@@ -23,7 +23,7 @@ flechaDetalle.addEventListener('click', () => {
 const flechaDetalle2 = document.getElementById('aumentar2');
 const infoDetallada2 = document.getElementById('infoDetallada2');
 
-let desplegado2 = false;
+let desplegado2 = true;
 
 flechaDetalle2.addEventListener('click', () => {
   if (desplegado2) {
@@ -43,7 +43,7 @@ flechaDetalle2.addEventListener('click', () => {
 const flechaDetalle3 = document.getElementById('aumentar3');
 const infoDetallada3 = document.getElementById('infoDetallada3');
 
-let desplegado3 = false;
+let desplegado3 = true;
 
 flechaDetalle3.addEventListener('click', () => {
   if (desplegado3) {
@@ -63,7 +63,7 @@ flechaDetalle3.addEventListener('click', () => {
 const flechaDetalle4 = document.getElementById('aumentar4');
 const infoDetallada4 = document.getElementById('infoDetallada4');
 
-let desplegado4 = false;
+let desplegado4 = true;
 
 flechaDetalle4.addEventListener('click', () => {
   if (desplegado4) {
@@ -83,7 +83,7 @@ flechaDetalle4.addEventListener('click', () => {
 const flechaDetalle5 = document.getElementById('aumentar5');
 const infoDetallada5 = document.getElementById('infoDetallada5');
 
-let desplegado5 = false;
+let desplegado5 = true;
 
 flechaDetalle5.addEventListener('click', () => {
   if (desplegado5) {
@@ -103,7 +103,7 @@ flechaDetalle5.addEventListener('click', () => {
 const flechaDetalle6 = document.getElementById('aumentar6');
 const infoDetallada6 = document.getElementById('infoDetallada6');
 
-let desplegado6 = false;
+let desplegado6 = true;
 
 flechaDetalle6.addEventListener('click', () => {
   if (desplegado6) {
@@ -123,7 +123,7 @@ flechaDetalle6.addEventListener('click', () => {
 const flechaDetalle7 = document.getElementById('aumentar7');
 const infoDetallada7 = document.getElementById('infoDetallada7');
 
-let desplegado7 = false;
+let desplegado7 = true;
 
 flechaDetalle7.addEventListener('click', () => {
   if (desplegado7) {
