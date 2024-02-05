@@ -11,7 +11,9 @@
 }
 
 body{
-   background-color: #40A2E3;
+    background: rgb(187, 226, 236);
+    background: linear-gradient(137deg, rgba(187, 226, 236, 1) 0%, rgba(64, 162, 227, 1) 83%, rgba(64, 162, 227, 1) 100%);
+
 }
 
 nav{
